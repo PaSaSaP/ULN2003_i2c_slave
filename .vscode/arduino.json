@@ -1,0 +1,7 @@
+{
+    "configuration": "serial=minimal,analog=no_in_out",
+    "board": "sduino:stm8:stm8sblue",
+    "sketch": "ULN2003_i2c_slave.ino",
+    "output": "./build",
+    "port": "/dev/tty.usbserial-A50285BI"
+}
