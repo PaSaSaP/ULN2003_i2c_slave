@@ -33,6 +33,7 @@ INTERRUPT_HANDLER(SPI_IRQHandler, 10) {
 
 void setup() {
     Wire_beginSlave(0x12);
+    Wire_setTimeout(100);
     Wire_setClock(400000);
     Wire_onReceive(onReceive);
 
